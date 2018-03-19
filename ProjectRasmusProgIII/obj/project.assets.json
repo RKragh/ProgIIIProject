@@ -12546,11 +12546,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\rkr\\Documents\\Visual Studio 2017\\Projects\\ProjectRasmusProgIII\\ProjectRasmusProgIII\\ProjectRasmusProgIII.csproj",
+      "projectUniqueName": "C:\\Users\\rkr\\documents\\visual studio 2017\\Projects\\ProjectRasmusProgIII\\ProjectRasmusProgIII\\ProjectRasmusProgIII.csproj",
       "projectName": "ProjectRasmusProgIII",
-      "projectPath": "C:\\Users\\rkr\\Documents\\Visual Studio 2017\\Projects\\ProjectRasmusProgIII\\ProjectRasmusProgIII\\ProjectRasmusProgIII.csproj",
+      "projectPath": "C:\\Users\\rkr\\documents\\visual studio 2017\\Projects\\ProjectRasmusProgIII\\ProjectRasmusProgIII\\ProjectRasmusProgIII.csproj",
       "packagesPath": "C:\\Users\\rkr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rkr\\Documents\\Visual Studio 2017\\Projects\\ProjectRasmusProgIII\\ProjectRasmusProgIII\\obj\\",
+      "outputPath": "C:\\Users\\rkr\\documents\\visual studio 2017\\Projects\\ProjectRasmusProgIII\\ProjectRasmusProgIII\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
