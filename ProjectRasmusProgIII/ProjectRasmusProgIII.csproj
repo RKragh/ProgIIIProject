@@ -8,10 +8,27 @@
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.2" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Content\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Content\Images\Chrysanthemum.jpg" />
+    <None Include="wwwroot\Content\Images\Desert.jpg" />
+    <None Include="wwwroot\Content\Images\Hydrangeas.jpg" />
+    <None Include="wwwroot\Content\Images\Jellyfish.jpg" />
+    <None Include="wwwroot\Content\Images\Koala.jpg" />
+    <None Include="wwwroot\Content\Images\Lighthouse.jpg" />
+    <None Include="wwwroot\Content\Images\Penguins.jpg" />
+    <None Include="wwwroot\Content\Images\Tulips.jpg" />
   </ItemGroup>
 
 </Project>
