@@ -1,0 +1,8 @@
+c:\users\rkr\documents\visual studio 2017\Projects\ProjectRasmusProgIII\ProjectRasmusProgIII\bin\Debug\netcoreapp2.0\ProjectRasmusProgIII.deps.json
+c:\users\rkr\documents\visual studio 2017\Projects\ProjectRasmusProgIII\ProjectRasmusProgIII\bin\Debug\netcoreapp2.0\ProjectRasmusProgIII.runtimeconfig.json
+c:\users\rkr\documents\visual studio 2017\Projects\ProjectRasmusProgIII\ProjectRasmusProgIII\bin\Debug\netcoreapp2.0\ProjectRasmusProgIII.runtimeconfig.dev.json
+c:\users\rkr\documents\visual studio 2017\Projects\ProjectRasmusProgIII\ProjectRasmusProgIII\bin\Debug\netcoreapp2.0\ProjectRasmusProgIII.dll
+c:\users\rkr\documents\visual studio 2017\Projects\ProjectRasmusProgIII\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.csprojResolveAssemblyReference.cache
+c:\users\rkr\documents\visual studio 2017\Projects\ProjectRasmusProgIII\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.csproj.CoreCompileInputs.cache
+c:\users\rkr\documents\visual studio 2017\Projects\ProjectRasmusProgIII\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.AssemblyInfoInputs.cache
+c:\users\rkr\documents\visual studio 2017\Projects\ProjectRasmusProgIII\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.AssemblyInfo.cs

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectRasmusProgIII", "ProjectRasmusProgIII\ProjectRasmusProgIII.csproj", "{20504EF6-05EE-4D2A-8331-93D15D1A2527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20504EF6-05EE-4D2A-8331-93D15D1A2527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20504EF6-05EE-4D2A-8331-93D15D1A2527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20504EF6-05EE-4D2A-8331-93D15D1A2527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20504EF6-05EE-4D2A-8331-93D15D1A2527}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F43A1C7A-406A-4B84-9D5A-6BDB6E8DB8C8}
+	EndGlobalSection
+EndGlobal
