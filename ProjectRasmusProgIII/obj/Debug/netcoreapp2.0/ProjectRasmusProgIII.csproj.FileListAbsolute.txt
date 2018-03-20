@@ -9,3 +9,14 @@ C:\Users\rkr\documents\visual studio 2017\Projects\ProjectRasmusProgIII\ProjectR
 C:\Users\rkr\documents\visual studio 2017\Projects\ProjectRasmusProgIII\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.dll
 C:\Users\rkr\documents\visual studio 2017\Projects\ProjectRasmusProgIII\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.pdb
 C:\Users\rkr\documents\visual studio 2017\Projects\ProjectRasmusProgIII\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\bin\Debug\netcoreapp2.0\ProjectRasmusProgIII.deps.json
+C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\bin\Debug\netcoreapp2.0\ProjectRasmusProgIII.runtimeconfig.json
+C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\bin\Debug\netcoreapp2.0\ProjectRasmusProgIII.runtimeconfig.dev.json
+C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\bin\Debug\netcoreapp2.0\ProjectRasmusProgIII.dll
+C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\bin\Debug\netcoreapp2.0\ProjectRasmusProgIII.pdb
+C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.csproj.CoreCompileInputs.cache
+C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.AssemblyInfoInputs.cache
+C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.AssemblyInfo.cs
+C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.dll
+C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.pdb

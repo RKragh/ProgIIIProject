@@ -13126,7 +13126,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rkr\\.nuget\\packages\\": {},
+    "C:\\Users\\Tec\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13135,17 +13135,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\rkr\\documents\\visual studio 2017\\Projects\\ProjectRasmusProgIII\\ProjectRasmusProgIII\\ProjectRasmusProgIII.csproj",
+      "projectUniqueName": "C:\\Users\\Tec\\Documents\\GitHub\\JavaManagementProject\\ProgIIIProject\\ProjectRasmusProgIII\\ProjectRasmusProgIII.csproj",
       "projectName": "ProjectRasmusProgIII",
-      "projectPath": "C:\\Users\\rkr\\documents\\visual studio 2017\\Projects\\ProjectRasmusProgIII\\ProjectRasmusProgIII\\ProjectRasmusProgIII.csproj",
-      "packagesPath": "C:\\Users\\rkr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rkr\\documents\\visual studio 2017\\Projects\\ProjectRasmusProgIII\\ProjectRasmusProgIII\\obj\\",
+      "projectPath": "C:\\Users\\Tec\\Documents\\GitHub\\JavaManagementProject\\ProgIIIProject\\ProjectRasmusProgIII\\ProjectRasmusProgIII.csproj",
+      "packagesPath": "C:\\Users\\Tec\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tec\\Documents\\GitHub\\JavaManagementProject\\ProgIIIProject\\ProjectRasmusProgIII\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rkr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tec\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13169,30 +13169,30 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "[2.0.5, )"
-          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[2.0.2, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[2.0.2, )"
+            "version": "2.0.2"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
-            "version": "[2.0.2, )"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "[2.0.0, )",
-            "autoReferenced": true
+            "version": "2.0.2"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "[2.0.2, )"
+            "version": "2.0.2"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "2.0.0",
+            "autoReferenced": true
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "2.0.2"
+          },
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.5"
           }
         },
         "imports": [
