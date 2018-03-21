@@ -20,3 +20,7 @@ C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmus
 C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.AssemblyInfo.cs
 C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.dll
 C:\Users\Tec\Documents\GitHub\JavaManagementProject\ProgIIIProject\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.pdb
+C:\Users\mathi\Documents\GitHub\ProgIIIProject\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.csprojResolveAssemblyReference.cache
+C:\Users\mathi\Documents\GitHub\ProgIIIProject\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.csproj.CoreCompileInputs.cache
+C:\Users\mathi\Documents\GitHub\ProgIIIProject\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.AssemblyInfoInputs.cache
+C:\Users\mathi\Documents\GitHub\ProgIIIProject\ProjectRasmusProgIII\obj\Debug\netcoreapp2.0\ProjectRasmusProgIII.AssemblyInfo.cs

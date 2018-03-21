@@ -64,6 +64,15 @@ namespace ProjectRasmusProgIII.Controllers
             var list = dbcontext.Customer.ToList();
             return View(list);
         }
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            Customer customer = dbcontext.Customer.Find(id);
+            dbcontext.Customer.Remove(customer);
+            dbcontext.SaveChanges();
+
+            return RedirectToAction("List");
+        }
 
 
 
