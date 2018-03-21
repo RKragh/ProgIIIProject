@@ -1,0 +1,50 @@
+﻿@model ProjectRasmusProgIII.Models.ProductView
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Product.ProductId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Product.ProductId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Product.ProductName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Product.ProductName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Product.CategoryId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Product.CategoryId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Product.ProductPrice)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Product.ProductPrice)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Product.ProductImagePath)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Product.ProductImagePath)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Browse">Back to List</a>
+    </form>
+</div>

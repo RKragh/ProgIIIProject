@@ -74,7 +74,31 @@ namespace ProjectRasmusProgIII.Controllers
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            dbcontext.Product.Remove(id);
+            Product product = dbcontext.Product.Find(id);
+            dbcontext.Product.Remove(product);
+
+            return View("Browse");
+        }
+
+        [HttpGet]
+        public IActionResult Browse()
+        {
+            List<ProductView> pviewlist = new List<ProductView>();
+            var catList = dbcontext.Category.ToList();
+
+            ProductView pview = new ProductView();
+            var p = dbcontext.Product.ToList();
+            foreach (var item in p)
+            {
+                pview.Product = item;
+                pview.Category = catList;
+
+                pviewlist.Add(pview);
+            }
+
+            ViewBag.list = catList;
+
+            return View(pviewlist);
         }
     }
 }

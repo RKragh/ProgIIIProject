@@ -1,0 +1,26 @@
+﻿@model IEnumerable<ProjectRasmusProgIII.Models.ProductView>
+@{
+    ViewData["Title"] = "Browse";
+}
+
+
+<div id="wrapper">
+    <nav class="nav nav-pills" id="sidebar-wrapper" role="navigation">
+        <ul class="nav sidebar-nav">
+            <li class="sidebar-brand">
+                <span class="fa fa-home solo">Menu</span>
+            </li>
+            @foreach (var item in ViewBag.list)
+            {
+            <li>
+                @Html.ActionLink((string)item.CategoryName, "Browse", new { id = item.CategoryId })
+            </li>
+            }
+        </ul>
+    </nav>
+
+    <div id="page-content-wrapper">
+        <h2>Browse</h2>
+    </div>
+
+</div>
