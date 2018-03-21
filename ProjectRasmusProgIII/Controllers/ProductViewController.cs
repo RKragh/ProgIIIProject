@@ -70,5 +70,11 @@ namespace ProjectRasmusProgIII.Controllers
 
             return Redirect("Browse");
         }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            dbcontext.Product.Remove(id);
+        }
     }
 }
