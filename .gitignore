@@ -322,3 +322,14 @@ ASALocalRun/
 
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
+.vs/ProjectRasmusProgIII/v15/.suo
+ProjectRasmusProgIII/bin/Debug/netcoreapp2.0/ProjectRasmusProgIII.runtimeconfig.dev.json
+ProjectRasmusProgIII/Controllers/CustomerController.cs
+ProjectRasmusProgIII/Controllers/ProductViewController.cs
+ProjectRasmusProgIII/Models/NewProduct.cs
+ProjectRasmusProgIII/obj/Debug/netcoreapp2.0/ProjectRasmusProgIII.csproj.CoreCompileInputs.cache
+ProjectRasmusProgIII/obj/Debug/netcoreapp2.0/ProjectRasmusProgIII.csproj.FileListAbsolute.txt
+ProjectRasmusProgIII/obj/Debug/netcoreapp2.0/ProjectRasmusProgIII.csprojResolveAssemblyReference.cache
+ProjectRasmusProgIII/obj/project.assets.json
+ProjectRasmusProgIII/obj/ProjectRasmusProgIII.csproj.nuget.cache
+ProjectRasmusProgIII/obj/ProjectRasmusProgIII.csproj.nuget.g.props
