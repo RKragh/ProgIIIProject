@@ -16,13 +16,16 @@ namespace ProjectRasmusProgIII.Models
         public string ProductName { get; set; }
         [Required]
         [Display(Name = "Category")]
-        public string ProductCategory { get; set; }
+        public Category ProductCategory { get; set; }
+        public int CategoryId { get; set; }
         [Required]
         [Display(Name = "Price")]
         public double ProductPrice { get; set; }
         [Required]
         [StringLength(50, ErrorMessage = "path too long"), MinLength(1)]
         public string ProductImagePath { get; set; }
+
+
 
     }
 }

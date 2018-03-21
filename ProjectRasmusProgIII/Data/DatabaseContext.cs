@@ -14,6 +14,7 @@ namespace ProjectRasmusProgIII.Data
         public DbSet<Product> Product { get; set; }
         public DbSet<ShopOrder> ShopOrder { get; set; }
         public DbSet<OrderContent> OrderContent { get; set; }
+        public DbSet<Category> Category { get; set; }
 
         public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
         {

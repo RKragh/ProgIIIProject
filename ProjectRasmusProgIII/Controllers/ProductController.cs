@@ -22,28 +22,5 @@ namespace ProjectRasmusProgIII.Controllers
             return View();
         }
 
-        [HttpGet]
-        public IActionResult Create()
-        {
-            
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult Create(Product product)
-        {
-            product.ProductId = 0;
-            dbcontext.Product.Add(product);
-            dbcontext.SaveChanges();
-
-            return RedirectToAction("Create");
-        }
-
-        public IActionResult Browse()
-        {
-            List<Product> productList = dbcontext.Product.ToList();
-
-            return View(productList);
-        }
     }
 }

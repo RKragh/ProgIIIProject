@@ -20,6 +20,18 @@ namespace ProjectRasmusProgIII.Migrations
                 .HasAnnotation("ProductVersion", "2.0.2-rtm-10011")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("ProjectRasmusProgIII.Models.Category", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("CategoryName");
+
+                    b.HasKey("CategoryId");
+
+                    b.ToTable("Category");
+                });
+
             modelBuilder.Entity("ProjectRasmusProgIII.Models.Customer", b =>
                 {
                     b.Property<int>("CustomerId")
@@ -78,8 +90,7 @@ namespace ProjectRasmusProgIII.Migrations
                     b.Property<int>("ProductId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("ProductCategory")
-                        .IsRequired();
+                    b.Property<int>("CategoryId");
 
                     b.Property<string>("ProductImagePath")
                         .IsRequired()
@@ -91,6 +102,8 @@ namespace ProjectRasmusProgIII.Migrations
                     b.Property<double>("ProductPrice");
 
                     b.HasKey("ProductId");
+
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("Product");
                 });
@@ -123,6 +136,14 @@ namespace ProjectRasmusProgIII.Migrations
                     b.HasOne("ProjectRasmusProgIII.Models.ShopOrder", "ShopOrder")
                         .WithMany()
                         .HasForeignKey("ShopOrderId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("ProjectRasmusProgIII.Models.Product", b =>
+                {
+                    b.HasOne("ProjectRasmusProgIII.Models.Category", "ProductCategory")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
