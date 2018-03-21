@@ -12,6 +12,15 @@ namespace ProjectRasmusProgIII.Models
         [HiddenInput(DisplayValue = false)]
         public int CustomerId { get; set; }
         [Required]
+        [Display(Name = "Username")]
+        [StringLength(50, ErrorMessage = "This field can not be longer than 50 characters"), MinLength(1)]
+        public string Username { get; set; }
+        [Required]
+        [Display(Name = "Password")]
+        [DataType(DataType.Password)]
+        [StringLength(16, ErrorMessage = "This field can not be longer than 16 characters or shorter than 8 characters"), MinLength(8)]
+        public string Password { get; set; }
+        [Required]
         [Display(Name = "First Name")]
         [StringLength(50, ErrorMessage = "This field can not be longer than 50 characters"), MinLength(1)]
         public string CustomerFirstName { get; set; }

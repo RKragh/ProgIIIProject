@@ -73,9 +73,6 @@ namespace ProjectRasmusProgIII.Controllers
 
             return RedirectToAction("List");
         }
-        
-        
-
 
 
 
